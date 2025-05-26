@@ -28,7 +28,7 @@ import celebalLogo from './assets/company_logo/celebal_logo.png';
 // Education Section Logo's
 import sanjivaniLogo from './assets/education_logo/scoe_logo.png';
 import kbRohmareLogo from './assets/education_logo/kjs.png';
-import snaDeshmukhLogo from './assets/education_logo/snad.png';
+import snaDeshmukhLogo from './assets/education_logo/snad_logo.png';
 
 
 // Project Section Logo's
