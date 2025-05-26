@@ -162,8 +162,8 @@ export const SkillsInfo = [
     ],
     image: personalPortfolioLogo,
     tags: ["React JS", "Vite", "Tailwind CSS"],
-    github: "https://github.com/gokulraktate",
-    webapp: "https://github.com/gokulraktate",
+    github: "https://github.com/gokulraktate/My_Portfolio",
+    webapp: "https://gokulraktate.vercel.app/",
   },
   {
     id: 1,
