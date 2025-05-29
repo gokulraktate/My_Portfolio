@@ -42,10 +42,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with 2+ years of experience in building
-            scalable web applications. Skilled in the MERN stack and modern web
-            technologies, I also have a strong grasp of Data Structures and
-            Algorithms to craft optimized and efficient solutions.
+            I’m a full-stack web developer skilled in the MERN stack, with a
+            solid foundation in React and modern web technologies. I have a
+            strong grasp of Data Structures and Algorithms, focusing on scalable
+            applications and writing optimized, efficient code through logical
+            problem-solving.
           </p>
           {/* Resume Button */}
           <a
