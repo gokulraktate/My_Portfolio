@@ -176,7 +176,7 @@ export const SkillsInfo = [
     image: razorpayCloneLogo,
     tags: ["HTML", "Tailwind CSS"],
     github: "https://github.com/gokulraktate/RazorpayClone",
-    webapp: "https://github.com/gokulraktate/RazorpayClone",
+    webapp: "https://razorpayclone-gokulraktate.netlify.app/",
   },
   {
     id: 2,
