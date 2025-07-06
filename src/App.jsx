@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Certification from "./components/Certification/Certification";
 import BlurBlob from './components/BlurBlob';
 import Loader from './components/Loader'; 
+import GoToTopButton from './components/GoToTopButton'; 
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -36,8 +37,11 @@ const App = () => {
         <Certification />
         <Contact />
         <Footer />
+        <GoToTopButton/>
+        
       </div>
     </div>
+    
   );
 };
 
