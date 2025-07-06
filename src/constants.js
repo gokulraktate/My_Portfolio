@@ -40,6 +40,7 @@ import spotifyclonelogo from "./assets/work_logo/spotify.png";
 import cppCoursera from "./assets/certifications/cppcoursera.jpg";
 import cloudcomputing from "./assets/certifications/cloudcomputing.jpg";
 import iiot from "./assets/certifications/iiot.jpg";
+import delta from "./assets/certifications/delta.jpg";
 
 export const SkillsInfo = [
   {
@@ -227,15 +228,7 @@ export const certifications = [
     description:
       "Completed a full semester NPTEL course on Cloud Computing, covering cloud infrastructure, virtualization, service models (IaaS, PaaS, SaaS), and deployment models. Gained hands-on knowledge about distributed systems and cloud-based architecture.",
     issuedBy: "NPTEL (IIT)",
-    link: "https://drive.google.com/drive/folders/1husB2BJDJDwf7SkL6LLLiCxj-S6UrEMg", 
-    tags: [
-      "Cloud Computing",
-      "IaaS",
-      "PaaS",
-      "SaaS",
-      "Virtualization",
-      "Distributed Systems"
-    ]
+    link: "https://drive.google.com/drive/folders/1nNS5ghGCIXkUekP4L4gE1aDve0_Yq_Gd", 
   },
   {
     id: 3,
@@ -244,6 +237,15 @@ export const certifications = [
     description:
       "Completed an NPTEL course focused on Industry 4.0 concepts including smart manufacturing, cyber-physical systems, IoT integration, big data analytics, and the digital transformation of industrial systems.",
     issuedBy: "NPTEL (IIT)",
-    link: "https://example.com/certificate/tailwind",
+    link: "https://drive.google.com/drive/folders/1nD6vXfw17NWHogNBXYgX6-AYabv4neJ5",
+  },
+  {
+    id: 4,
+    title: "Delta MERN Stack",
+    image: delta,
+    description:
+    "Completed a comprehensive full-stack web development course focused on the MERN stack (MongoDB, Express.js, React.js, Node.js). Gained hands-on experience by building real-world projects, covering both frontend and backend development, REST APIs, authentication, database integration, and deployment using platforms like Render and Vercel.",
+    issuedBy: "Apna College",
+    link: "https://drive.google.com/drive/folders/17U-H2aAk6nIm__c9UrtJB9AZt6j9cp67",
   },
 ];
