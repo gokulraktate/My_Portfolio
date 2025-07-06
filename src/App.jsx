@@ -7,7 +7,9 @@ import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Certification from "./components/Certification/Certification";
 import BlurBlob from './components/BlurBlob';
+import { FaCertificate } from "react-icons/fa";
 
 
 const App = () => {
@@ -23,6 +25,7 @@ const App = () => {
         <Experience />
         <Work />
         <Education />
+        <Certification/>
         <Contact />
         <Footer />
       </div>
