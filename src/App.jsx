@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
@@ -9,10 +9,18 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Certification from "./components/Certification/Certification";
 import BlurBlob from './components/BlurBlob';
-import { FaCertificate } from "react-icons/fa";
-
+import Loader from './components/Loader'; 
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1500); 
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loader />;
+
   return (
     <div className="bg-[#050414]">
       <BlurBlob position={{ top: '35%', left: '20%' }} size={{ width: '30%', height: '40%' }} />
@@ -25,11 +33,10 @@ const App = () => {
         <Experience />
         <Work />
         <Education />
-        <Certification/>
+        <Certification />
         <Contact />
         <Footer />
       </div>
-
     </div>
   );
 };
