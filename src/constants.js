@@ -34,6 +34,7 @@ import personalPortfolioLogo from "./assets/work_logo/portfolio.png";
 import razorpayCloneLogo from "./assets/work_logo/razorpay.png";
 import chatAppLogo from "./assets/work_logo/chat.png";
 import spotifyclonelogo from "./assets/work_logo/spotify.png";
+import dashboard from "./assets/work_logo/dashboard.png";
 
 // Certification Section Images
 
@@ -194,21 +195,25 @@ export const projects = [
     github: "https://github.com/gokulraktate/Spotify-Clone",
     webapp: "https://spotify-clone-gokulraktate.vercel.app",
   },
-  // {
-  //   id: 3,
-  //   title: "Spotify Clone",
-  //   description: [
-  //     "Developed a static Spotify UI clone using React JS and Tailwind CSS with a clean, modern design.",
-  //     "Created reusable components including sidebar, player controls, and playlist sections.",
-  //     "Implemented responsive layouts optimized for both desktop and mobile devices.",
-  //     "Deployed on Netlify with a focus on pixel-perfect design fidelity."
-
-  //   ],
-  //   image: spotifyclonelogo,
-  //   tags: ["React JS", "Tailwindcss"],
-  //   github: "https://github.com/gokulraktate/Spotify-Clone",
-  //   webapp: "https://spotify-clone-gokulraktate.vercel.app",
-  // },
+  {
+    id: 3,
+    title: "Dashboard",
+    description: [
+      "A fully responsive and interactive React Admin Dashboard App with support for:",
+        "Customizable Light and Dark themes,",
+        "Dynamic Sidebar with routing,",
+        "Dashboard widgets with key metrics,",
+        "Rich data Tables with pagination and sorting,",
+        "Charts (Line, Bar, Pie, Area, and Doughnut),",
+        "Fully functional Calendar with event management,",
+        "Interactive Kanban Board for task tracking &",
+        "Tooltips, dropdowns, and modals for enhanced UX.",
+    ],
+    image: dashboard,
+    tags: ["React JS", "Tailwindcss","React Router DOM"],
+    github: "https://github.com/gokulraktate/Dashboard-",
+    webapp: "https://dashboard-gokulraktate.netlify.app/",
+  },
 ];
 
 export const certifications = [
