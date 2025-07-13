@@ -35,6 +35,7 @@ import razorpayCloneLogo from "./assets/work_logo/razorpay.png";
 import chatAppLogo from "./assets/work_logo/chat.png";
 import spotifyclonelogo from "./assets/work_logo/spotify.png";
 import dashboard from "./assets/work_logo/dashboard.png";
+import rental from "./assets/work_logo/rental.png";
 
 // Certification Section Images
 
@@ -213,6 +214,27 @@ export const projects = [
     tags: ["React JS", "Tailwindcss","React Router DOM"],
     github: "https://github.com/gokulraktate/Dashboard-",
     webapp: "https://dashboard-gokulraktate.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Car/Bike Rental",
+    description: [
+      "A fully functional and responsive Car/Bike Rentals Web App built with React and Firebase, featuring:",
+      "User authentication system with login & registration,",
+      "Responsive and modern UI/UX optimized for all devices,",
+      "Real-time vehicle catalog for cars and bikes with detailed listings,",
+      "Cart-based booking system with quantity selection and direct checkout,",
+      "Flexible date & time pickers for pickup and drop-off scheduling,",
+      "Secure Razorpay integration for real-time payments",
+      "Firebase Firestore integration for storing booking history,",
+      "User-specific booking history page for rental tracking,",
+      "Context-based global cart state for smooth navigation &",
+      "Session-based booking persistence for seamless payment flow.",
+    ],
+    image: rental,
+    tags: ["React JS", "Tailwindcss","React Router DOM"],
+    github: "https://github.com/gokulraktate/Rental_Application",
+    webapp: "https://rentdrive-b6985.web.app/",
   },
 ];
 
