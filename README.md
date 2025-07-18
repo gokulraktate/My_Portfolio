@@ -48,7 +48,7 @@ It’s designed to:
 
 ```bash
 git clone https://github.com/gokulraktate/My_Portfolio.git
-cd My_Portfolio
+cd myportfolio
 npm install
 npm run dev
 ````
